@@ -67,3 +67,11 @@ function multiplyAll(arr){
 
 - **DevIncubator**
   -2021 - 2nd stage
+
+### Languages
+
+  ---
+
+- Belarusian(native)
+- Russian
+- English(A1)
