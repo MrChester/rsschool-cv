@@ -36,3 +36,17 @@ I am an aspiring software developer with good problem solving skills, i have som
 - Windows OS, Linux(WSL Ubuntu)
 - Figma, Photoshop
 - Editors: **VSCode**, Apache NetBeans
+
+### Code examples
+
+---
+
+```sh
+function multiplyAll(arr){
+  return function(int){
+    return arr.map(function(element){
+      return element * int;
+    });
+  };
+}
+```
