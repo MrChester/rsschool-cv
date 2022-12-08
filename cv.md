@@ -22,3 +22,17 @@
 ---
 
 I am an aspiring software developer with good problem solving skills, i have some mentoring and teamwork experience. The minimum plan is to become senior web developer (react/vue+php) in 3-5 years. Open to any offers.
+
+### Skills
+
+---
+
+- HTML, CSS
+- Jvascript
+- Git
+- Gulp, Webpack
+- C++(Basics)
+- PHP(Basics)
+- Windows OS, Linux(WSL Ubuntu)
+- Figma, Photoshop
+- Editors: **VSCode**, Apache NetBeans
