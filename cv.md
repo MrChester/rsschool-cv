@@ -50,3 +50,20 @@ function multiplyAll(arr){
   };
 }
 ```
+
+### Education
+
+---
+
+- **Minsk College of Economics and Finance**
+  - 2008-2011 - Tax and taxation(incomplete)
+
+- **LoftSchool**
+  - 2016 - Web for beginners
+  - 2017 - Advanced web
+
+- **The Rolling Scopes School**
+  -2018 - 1st stage
+
+- **DevIncubator**
+  -2021 - 2nd stage
