@@ -68,6 +68,20 @@ function multiplyAll(arr){
 - **DevIncubator**
   -2021 - 2nd stage
 
+### Projects
+
+---
+
+- AntiPlagiarism - [antiplagiarism c++ app](https://github.com/MrChester/AntiPlagiarism)
+- Coffee box - [coffee box console app](https://github.com/MrChester/coffeebox)
+- Portfolio - [My portfolio](https://mrchester.github.io/)
+- Hipsweet - [hipsweet](https://mrchester.github.io/projects/hipsweet/)
+- Restaurant - [restaurant](https://mrchester.github.io/restaurant/)
+- Singolo - [singolo](https://mrchester.github.io/singolo/)
+- Shopno - [shopno](https://mrchester.github.io/shopno/)
+- Power of colour - [vertical slider](https://mrchester.github.io/js-marathon-slider/)
+- Aim Training Game - [aim training game](https://mrchester.github.io/js-marathon-aim-game/)
+
 ### Languages
 
   ---
