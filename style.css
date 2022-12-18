@@ -1,6 +1,7 @@
 :root {
   --main-bg-color: #fbfbfb;
   --header-bg-color: #93ab79;
+  --footer-bg-color: var(--header-bg-color);
   --main-text-color: #502828;
   --secondary-text-color: var(--header-bg-color);
   --profile-section-border-color: var(--header-bg-color);
@@ -242,6 +243,7 @@ body {
 .pre {
   margin: 0;
   padding: 0;
+  white-space: pre-wrap;   
 }
 /* SECTION CODE END*/
 
@@ -253,6 +255,32 @@ body {
 }
 
 /* SECTION EDUCATION AND ENGLISH END*/
+
+/* FOOTER */
+.footer{
+  padding: 20px 0;
+  color: #ffffff;
+  background-color: var(--footer-bg-color);
+}
+
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav__link{
+  margin-left: 12px;
+  line-height: 45px;
+}
+
+.rss-icon{
+  width: 121px;
+  height: 45px;
+  background-image: url(./assets/svg/rs-school-js-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* FOOTER END */
 
 /* ANIMATION */
 
