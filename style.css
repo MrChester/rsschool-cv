@@ -211,24 +211,28 @@ body {
   background-image: url(./assets/svg/discord-icon.svg);
 }
 
-.contacts-item a {
+.contacts-item a,
+.projects-item a {
   text-decoration: none;
   color: var(--secondary-text-color);
-  transition: color 0.3s;
+  transition: color 0.6s;
 }
-.contacts-item a:hover {
+.contacts-item a:hover,
+.projects-item a:hover {
   color: var(--main-text-color);
 }
 /* SECTION CONTACTS END */
 
 /* SECTION SKILLS */
 .skills-item span,
-.cources-item span {
+.cources-item span,
+.projects-item a{
   color: var(--secondary-text-color);
 }
 
 .skills-item::before,
-.cources-item::before {
+.cources-item::before,
+.projects-item::before {
   top: 1px;
   background-image: url(./assets/svg/arrow_square_right-icon.svg);
 }
