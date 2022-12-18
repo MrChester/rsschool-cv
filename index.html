@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>CV#2. HTML, CSS &amp; Git Basics</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Educations</a></li>
+            <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
+          <img src="./assets/png/logo/profile-logo.png" alt="profile-logo" class="profile-logo">
+          <div class="profile-title">
+            <h1 class="profile-main-title">Yauheni Ramankou</h1>
+            <h3 class="profile-subtitle">Web developer</h3>
+          </div>
+        </section>
+        <section class="section section-contacts" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item icon--map-marker"> Minsk, Belarus </li>
+            <li class="section-item contacts-item icon--email"> Email: <a href="mailto:yauheni.ramankou@gmail.com" title="email">yauheni.ramankou@gmail.com</a></li>
+            <li class="section-item contacts-item icon--github"> Github: <a href="https://github.com/MrChester" target="_blank">MrChester</a></li>
+            <li class="section-item contacts-item icon--telegram"> Telegram: <a href="https://t.me/yauheni_ramankou" target="_blank">@yauheni_ramankou</a></li>
+            <li class="section-item contacts-item icon--discord"> Discord: <a href=" https://discordapp.com/users/539746676714504202" target="_blank">MrChester#4090</a></li>
+          </ul>
+        </section>
+        <section class="section section-summary" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p>I am an aspiring software developer with good problem solving skills, i have some mentoring and teamwork experience. The minimum plan is to become senior web developer (react/vue+php) in 3-5 years. Open to any offers.<br>I like to read, play basketball and travel.</p>
+        </section>
+        <section class="section section-skills" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-list">
+            <li class="section-item skills-item"> Web development:<span> - HTML5, CSS3, JavaScript, PHP</span></li>
+            <li class="section-item skills-item"> Frameworks and libraries: <span> - React, Laravel</span></li>
+            <li class="section-item skills-item"> Version control: <span> - Git, Github</span></li>
+            <li class="section-item skills-item"> Graphics: <span> - Figma, Zeplin, Photoshop</span></li>
+          </ul>
+        </section>
+        <section class="section section-code" id="code">
+          <h2 class="section-title">Code</h2>
+<pre class="pre"><code>function vowelOne(s){
+    let vowels = ["a", "e", "o", "u", "i", "A", "E", "O", "U", "I"];
+    let resultStr = "";                
+    for(let i = 0; i < s.length; i++){                  
+      vowels.includes(s[i]) ? resultStr += "1" : resultStr += "0";
+    }                
+    return resultStr;
+  }</code>
+</pre>
+        </section>
+        <section class="section section-cources" id="cources">
+          <h2 class="section-title">Cources</h2>
+          <ul class="section-list">
+            <li class="section-item cources-item">LoftSchool <span> - Web development fo beginners</span></li>
+            <li class="section-item cources-item">LoftSchool <span> - Advanced web development</span></li>
+            <li class="section-item cources-item">The Rolling Scopes School <span> -JavaScript/Front&ndash;end(Stage 1)</span></li>
+            <li class="section-item cources-item">DevIncubator <span> - Web development</span></li>
+          </ul>
+        </section>
+        <section class="section section-projects" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-list">
+            <li class="section-item projects-item"><a href="https://mrchester.github.io/" title="portfolio" target="_blank">Portfolio</a></li>
+            <li class="section-item projects-item"><a href="https://mrchester.github.io/shopno/" title="shopno" target="_blank">Shopno</a></li>
+            <li class="section-item projects-item"><a href="https://mrchester.github.io/restaurant/" title="restaurant" target="_blank">Restaurant</a></li>
+            <li class="section-item projects-item"><a href="https://mrchester.github.io/singolo/" title="singolo" target="_blank">Singolo</a></li>
+            <li class="section-item projects-item"><a href="https://github.com/MrChester/AntiPlagiarism" title="antiplagiarism" target="_blank">AntiPlagiarism</a></li>
+            <li class="section-item projects-item"><a href="https://mrchester.github.io/js-marathon-slider/" title="power of colour" target="_blank">Power of Colour</a></li>
+          </ul>
+        </section>
+        <section class="section section-education" id="education">
+          <h2 class="section-title">Education</h2>
+          <p>Minsk Financial and Economic College</p>
+        </section>
+        <section class="section section-english" id="english">
+          <h2 class="section-title">English</h2>
+          <p>A1 - Beginner</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>
+          &copy; 2022
+          <a href="https://github.com/MrChester/"  class="nav-link footer-nav__link" title="mrchester github" target="_blank">MrChester</a>
+        </div>
+        <a href="https://rs.school/js/" title="RSSchool" class="rss-icon" target="_blank"></a>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
