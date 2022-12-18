@@ -222,15 +222,22 @@ body {
 /* SECTION CONTACTS END */
 
 /* SECTION SKILLS */
-.skills-item span{
-  color: var(--secondary-text-color)
+.skills-item span {
+  color: var(--secondary-text-color);
 }
 
-.skills-item::before{
+.skills-item::before {
   top: 1px;
   background-image: url(./assets/svg/arrow_square_right-icon.svg);
 }
 /* SECTION SKILLS END */
+
+/* SECTION CODE */
+.pre {
+  margin: 0;
+  padding: 0;
+}
+/* SECTION CODE END*/
 
 /* ANIMATION */
 
