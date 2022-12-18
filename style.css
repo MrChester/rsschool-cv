@@ -8,23 +8,20 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
-body,
-html,
-.wrapper {
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-bg-color);
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
   color: var(--main-text-color);
   font-family: "Raleway",Verdana, sans-serif;
   font-weight: normal;
-  font-size: 16px;
-}
-
-.wrapper {
-  background-color: var(--main-bg-color);
+  font-size: 18px;
 }
 
 .container{
