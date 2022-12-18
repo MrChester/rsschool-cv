@@ -1,6 +1,6 @@
-:root{
+:root {
   --main-bg-color: #fbfbfb;
-  --header-bg-color: #93AB79;
+  --header-bg-color: #93ab79;
   --main-text-color: #502828;
   --secondary-text-color: var(--header-bg-color);
   --profile-section-border-color: var(--header-bg-color);
@@ -19,12 +19,12 @@ body {
   margin: 0;
   padding: 0;
   color: var(--main-text-color);
-  font-family: "Raleway",Verdana, sans-serif;
+  font-family: "Raleway", Verdana, sans-serif;
   font-weight: normal;
   font-size: 18px;
 }
 
-.container{
+.container {
   max-width: 1480px;
   min-height: 50px;
   padding: 0 20px;
@@ -33,22 +33,22 @@ body {
 
 /* HEADER */
 
-.header{
+.header {
   background-color: var(--header-bg-color);
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
 }
 
-.nav-list li+li{
+.nav-list li + li {
   margin-left: 25px;
 }
 
-.nav-link{
+.nav-link {
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -65,7 +65,7 @@ body {
   height: 2px;
   background-color: #fff;
   opacity: 0;
-  transition: .7s;
+  transition: 0.7s;
 }
 
 .nav-link:hover::after {
