@@ -18,6 +18,9 @@ html,
 .wrapper {
   min-height: 100vh;
   color: var(--main-text-color);
+  font-family: "Raleway",Verdana, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
 }
 
 .wrapper {
