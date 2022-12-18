@@ -226,7 +226,7 @@ body {
 /* SECTION SKILLS */
 .skills-item span,
 .cources-item span,
-.projects-item a{
+.projects-item a {
   color: var(--secondary-text-color);
 }
 
@@ -245,6 +245,15 @@ body {
 }
 /* SECTION CODE END*/
 
+/* SECTION EDUCATION AND ENGLISH */
+
+.section-education,
+.section-english {
+  border-bottom: 0;
+}
+
+/* SECTION EDUCATION AND ENGLISH END*/
+
 /* ANIMATION */
 
 @keyframes border-to-right {
@@ -262,6 +271,9 @@ body {
 @media (max-width: 768px) {
   .section {
     width: calc(100% - 20px);
+  }
+  .section-education {
+    border-bottom: 1px solid #672f2f;
   }
 }
 /* MEDIA QUERIES END */
